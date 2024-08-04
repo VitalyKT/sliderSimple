@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Слайдер</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    
+    <body>
+    <main>
+        <img src="/img/img1.jpg" class="slide" alt="природа камни" width="1000" height="600">
+        <img src="/img/img2.jpg" class="slide" alt="природа водопад" width="1000" height="600">
+        <img src="/img/img3.jpg" class="slide" alt="море камни" width="1000" height="600">
+        <img src="/img/img4.jpg" class="slide" alt="природа закат" width="1000" height="600">
+        <img src="/img/img5.jpg" class="slide" alt="природа пустныня" width="1000" height="600">
+    </main>
+    
+        <div class="counter">
+        <span id="currentSlide">1</span> / <span id="totalSlides">5</span>
+    </div>
+<script src="/script.js"></script>
+<div class="navButton">
+        <button onclick="prev()">Назад</button>
+        <button onclick="next()">Вперед</button>
+    </div>
+
+    </body>
+</html>
